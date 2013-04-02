@@ -4,3 +4,4 @@ backends/*.js  /usr/share/statsd/backends
 lib/*.js  /usr/share/statsd/lib
 debian/localConfig.js	/etc/statsd
 debian/scripts/start	/usr/share/statsd/scripts
+debian/scripts/statsd.conf	/etc/supervisor/conf.d

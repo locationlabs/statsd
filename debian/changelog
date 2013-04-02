@@ -1,3 +1,10 @@
+statsd (0.0.4) unstable; urgency=low
+
+  * removed init support
+  * added supervisor support and dependencie
+
+ -- Luis Morales <luis.morales@locationlabs.com>  Tue, 02 Apr 2013 14:00:16 -0100
+
 statsd (0.0.3) unstable; urgency=low
 
   * removed rdio references from init scripts and config

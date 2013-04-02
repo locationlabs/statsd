@@ -1,6 +1,21 @@
 #!/bin/sh
 
+
+ST_GROUP=statsd
+ST_USER=statsd
+
+# Create statsd user if it doesn't exist.
+if ! getent group "$ST_GROUP" > /dev/null 2>&1 ; then
+addgroup --system "$ST_GROUP" --quiet
+fi
+
+if ! id $ST_USER > /dev/null 2>&1 ; then
+adduser --system --home /var/lib/logstash --no-create-home \
+    --ingroup $ST_GROUP --disabled-password --shell /bin/bash $ST_USER
+fi
+
+
 if [ "`stat -c %G /var/log/statsd`" != 'nogroup' ]; then
-    chown root.nogroup /var/log/statsd
+    chown $ST_USER.$ST_GROUP /var/log/statsd
     chmod 770 /var/log/statsd
 fi
