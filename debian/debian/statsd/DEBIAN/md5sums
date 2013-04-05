@@ -1,0 +1,12 @@
+1417a3d1b1b10dbe1a24ccf6b5ee8ad1  usr/share/doc/statsd/README.md.gz
+225a993ce00957cd4e9faaa4111ddb85  usr/share/doc/statsd/changelog.gz
+edec87a6688e79a78e32c9f123faecf6  usr/share/doc/statsd/copyright
+7f6438f52e98a18f134dba3d70013df8  usr/share/statsd/backends/console.js
+3047cb31af4466db54bb2b9d28c099fd  usr/share/statsd/backends/graphite.js
+e6c28e3c4b3877aef46a504331ecca22  usr/share/statsd/backends/repeater.js
+24ad65fdced9cfd120b5ff3fa98d9c2b  usr/share/statsd/lib/config.js
+989115915b1bf224bf7522e0a0b69a08  usr/share/statsd/lib/logger.js
+46c8647731471a81860a7eebb00c6197  usr/share/statsd/lib/process_metrics.js
+d8548ace76f44bf06582c42c851f9471  usr/share/statsd/lib/set.js
+c7509147b1e019f4f2752f400459ae55  usr/share/statsd/scripts/start
+360cd8d1d2f0c7275f93973ba8c873dc  usr/share/statsd/stats.js
